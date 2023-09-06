@@ -1,8 +1,4 @@
----
-title: "SIMPLE PORTFOLIO WEBSITE"
-cascade:
-  featured_image: '/image/readme.jpg'
----
+# MY PORTFOLIO WEBSITE
 Hello and welcome to my Portfolio Website. This is a reflection of me and my passion. Whether you stumbled upon this page intentionally or by chance, I am excited to share with you my work.
 
 ## About me
