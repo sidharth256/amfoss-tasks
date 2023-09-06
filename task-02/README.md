@@ -17,4 +17,4 @@ Thank you for visiting and i look forward sharing my journey with you.
 
 ## [HUGO REPOSITORY](https://github.com/sidharth256/portfolio.github.io)
 
-## [GITHUB PAGES](https://sidharth256.github.io/portfolio.github.io)
+## [WEBSITE](https://sidharth256.github.io/portfolio.github.io)
