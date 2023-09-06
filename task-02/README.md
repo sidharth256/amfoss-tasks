@@ -1,5 +1,8 @@
-# MY PORTFOLIO WEBSITE
-
+---
+title: "SIMPLE PORTFOLIO WEBSITE"
+cascade:
+  featured_image: '/image/readme.jpg'
+---
 Hello and welcome to my Portfolio Website. This is a reflection of me and my passion. Whether you stumbled upon this page intentionally or by chance, I am excited to share with you my work.
 
 ## About me
@@ -16,6 +19,6 @@ I am always open to new opportunites and conversations. Feel free to contact me 
 
 Thank you for visiting and i look forward sharing my journey with you.
 
-## [HUGO REPO](https://github.com/sidharth256/portfolio.github.io)
+## [HUGO REPOSITORY](https://github.com/sidharth256/portfolio.github.io)
 
 ## [GITHUB PAGES](https://sidharth256.github.io/portfolio.github.io)
