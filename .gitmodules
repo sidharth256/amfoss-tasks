@@ -1,0 +1,22 @@
+[submodule "task-02/themes/ananke"]
+	path = task-02/themes/ananke
+	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
+[submodule "task-02/simple_portfolio_website/themes/ananke"]
+	path = task-02/simple_portfolio_website/themes/ananke
+	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
+[submodule "task-02/simple_portfolio_website/public"]
+	path = task-02/simple_portfolio_website/public
+	url = https://github.com/sidharth256/portfoliowebsite.github.io.git
+	branch = main
+[submodule "task-02/Portfolio Website/public"]
+	path = task-02/Portfolio Website/public
+	url = https://github.com/sidharth256/portfolio.github.io.git
+	branch = main
+[submodule "task-02/Portfolio Website/exampleSite/public_2"]
+	path = task-02/Portfolio Website/exampleSite/public_2
+	url = https://github.com/sidharth256/portfolio.github.io.git
+	branch = main
+[submodule "task-02/Portfolio Website/exampleSite/public/portfolio.github.io"]
+	path = task-02/Portfolio Website/exampleSite/public/portfolio.github.io
+	url = https://github.com/sidharth256/portfolio.github.io
+	branch = main
