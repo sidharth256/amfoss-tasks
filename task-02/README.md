@@ -16,4 +16,10 @@ I am always open to new opportunites and conversations. Feel free to contact me 
 
 Thank you for visiting and i look forward sharing my journey with you.
 
-![github](https://github.com/sidharth256/portfolio.github.io)
+**HUGO REPOSITORY**
+
+[![HUGO REPO](https://github.com/sidharth256/amfoss-tasks/tree/main/task-02/image/hugo.jpg)](https://github.com/sidharth256/portfolio.github.io)
+
+**GITHUB PAGES**
+
+[![GITHUB PAGES](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)](https://sidharth256.github.io/portfolio.github.io)
