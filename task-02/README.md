@@ -18,7 +18,7 @@ Thank you for visiting and i look forward sharing my journey with you.
 
 **HUGO REPOSITORY**
 
-[![HUGO REPO](https://github.com/sidharth256/amfoss-tasks/tree/main/task-02/image/hugo.jpg)](https://github.com/sidharth256/portfolio.github.io)
+[![HUGO REPO](https://github.com/sidharth256/amfoss-tasks/task-02/image/hugo.jpg)](https://github.com/sidharth256/portfolio.github.io)
 
 **GITHUB PAGES**
 
