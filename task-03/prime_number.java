@@ -16,8 +16,13 @@ public class PrimeNumbers {
                 scanner.nextLine();
             }
         }
-
-        System.out.println("Prime numbers up to " + n + ":");
+        
+        
+        if (n < 2) {
+            System.out.print("There are no prime numbers below 2");
+        } else {
+            System.out.println("Prime numbers up to " + n + ":");
+        }
         for (int i = 2; i <= n; i++) {
             boolean isPrime = true;
             for (int j = 2; j < i; j++) {
@@ -34,4 +39,4 @@ public class PrimeNumbers {
         
         scanner.close();
     }
-}
+}    
