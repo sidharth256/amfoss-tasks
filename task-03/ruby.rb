@@ -3,8 +3,7 @@ number = gets.chomp.to_i
 
 if (number < 2)
   puts "There are no prime number below 2"
-  
-  
+    
 else 
   puts "Prime numbers upto #{number} are"
   for num in 2..number+1
