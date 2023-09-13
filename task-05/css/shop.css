@@ -1,0 +1,138 @@
+body {
+    background-color: rgb(22, 22, 65);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.heading {
+    display: block;
+    padding-bottom: 8px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4)
+}
+
+.logo {
+    display: inline-block;
+    width: 40px;
+    padding-top: 12px;
+}
+.menu {
+    width: 40px;
+    padding: 6px 9px;
+}
+a{
+    padding: 5px;
+}
+
+nav{
+    display: inline-block;
+    position: absolute;
+    right: 1px;
+    padding-top: 8px;
+}
+
+.row{
+    padding-top: 13px;
+    display: grid;
+    grid-template-columns: 140px 140px 140px 140px;
+    grid-column-gap: 5rem;
+    grid-row-gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.items{
+    background-image: linear-gradient(to bottom, #0B0B21 0%, #0B0B21 50%, #0B0B21 94.5%, 
+    #3345AB 94.5%, #3345AB 100%);
+    padding: 0px;
+    height: 288px;
+    width: 197px;
+    border-radius: 15px;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 20px;
+    transition: all 0.2s ease;
+}
+
+.items img{
+    display: block;
+    padding: 0px;
+    height: 146px;
+    width: 135px;
+    /* align-items: center; */
+    padding-left: 34px;
+    padding-top: 5px;
+}
+#things{
+    padding-right: 17px;
+    padding-left: 36px;
+    padding-top: 2px;
+    margin: 0px;
+    /* text-align: center; */
+    color: white;
+}
+#price{
+    padding-left: 33px;
+    text-align: left;
+    color: white;   
+}
+#vinyl{
+    height: 147px;
+    width: 147px;
+    padding-left: 25px;
+}
+#next_to_me{
+    height: 108px;
+    width: 80px;
+    padding-top: 26px;
+    padding-left: 58px;
+    padding-bottom: 17px;
+}
+#a1{
+    height: 80px;
+    width: 144px;
+    padding-bottom: 27px;
+    padding-top: 46px;
+    padding-left: 28px;
+}
+#keychain{
+    height: 116px;
+    padding-top: 21px;
+    padding-bottom: 16px;
+}
+#hoodie{
+    height: 131px;
+    width: 126px;
+    padding-top: 16px;
+    padding-bottom: 6px;
+}
+#bottle{
+    height: 128px;
+    padding-top: 14px;
+    padding-bottom: 11px;
+}
+#cassette{
+    width: 136px;
+}
+.menu:hover{
+    transform: scale(1.1);
+}
+.menu:active{
+    filter: grayscale(100%);
+}
+.menu:checked{
+    filter: grayscale(80%);
+}
+
+.logo:hover{
+    transform: scale(1.1);
+}
+.logo:active{
+    filter: brightness(0.4);
+}
+.items:hover{
+    transform: scale(1.2);
+}

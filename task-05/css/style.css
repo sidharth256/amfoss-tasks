@@ -1,0 +1,115 @@
+body {
+    background-image: url('/images/backdrop.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    display: inline-block;
+    position: absolute;
+    right: 1px;
+    padding-top: 8px;
+}
+.logo {
+    display: inline-block;
+    width: 40px;
+    padding-top: 12px;
+    transition: all 0.2s ease;
+}
+.menu {
+    width: 40px;
+    padding: 6px 9px;
+    transition: all 0.2s ease;
+}
+a{
+    padding: 5px;
+}
+.heading {
+    display: block;
+    padding-bottom: 8px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4)
+}
+
+h1 {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-size: 39px;
+    color: white;
+    position: absolute;
+    bottom: 278px;
+    left: 813px;
+    font-family: 'Amaranth', sans-serif ;
+
+}
+
+.logo_text {
+    display: inline-block;
+    top: 707px;
+    height: 99px;
+    width: 996px;
+    left: 446px;
+    position: absolute;
+}
+
+#shop {
+    display: block;
+    position: absolute;
+    padding: 0px;
+    background-color: aqua;
+    left: 774px;
+    bottom: 91px;
+    width: 224px;
+    height: 58px;
+    border: none;
+    margin: 0px;
+    border-radius: 11px;
+    padding-left: 2px;
+    transition: all 0.2s ease;
+}
+
+#arrow{
+    position: absolute;
+    bottom: 4px;
+    padding-left: 55px;
+}
+.shop{
+    margin: 0px;
+    border: 0px;
+    display: inline-block;
+    position: absolute;
+    left: 17px;
+    bottom: 8px;
+    color: rgb(10, 1, 27);
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 31px;
+}
+
+#button {
+    display: block;
+}
+#shop:hover{
+    transform: scale(1.2);
+}
+#shop:active{
+    background-color: blue;
+}
+.menu:hover{
+    transform: scale(1.1);
+}
+.menu:active{
+    filter: grayscale(100%);
+}
+.menu:checked{
+    filter: grayscale(80%);
+}
+.logo:hover{
+    transform: scale(1.1);
+}
+.logo:active{
+    filter: brightness(0.4);
+}
