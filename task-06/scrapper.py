@@ -65,20 +65,8 @@ elif len(main)>=2:
 if status:
     live_status = status.text.strip('.') 
 
-if over_1 and over_2:
-    match_data = [team_1, over_1, score_1, team_2, over_2, score_2, live_status, csv_time]
+match_data = [team_1, over_1, score_1, team_2, over_2, score_2, live_status, csv_time]
 
-elif over_1 and score_2:
-    match_data = [team_1, over_1, score_1, team_2, over_2, score_2, live_status, csv_time]
-
-elif over_2 and score_1:
-    match_data = [team_1, over_1, score_1, team_2, over_2, score_2, live_status, csv_time]
-
-elif over_1:
-    match_data = [team_1, over_1, score_1, team_2, over_2, score_2, live_status, csv_time]
-
-else:
-    match_data = [team_1, team_2, live_status, csv_time]
 def add_data():
     with open('livescores.csv', 'a', newline='') as csvfile:
         csv_writer = csv.writer(csvfile)
