@@ -11,7 +11,11 @@ csv_file = 'livescores.csv'
 @bot.event
 async def on_ready():
     print("Bot is ready!")
-    await bot.tree.sync()
+
+@bot.event
+async def no_live(ctx):
+    result = scrapper.no_live()
+    await ctx.send(result)
 
 @bot.command()
 async def livescore(ctx):
@@ -48,10 +52,5 @@ async def on_command_error(ctx, error):
         await ctx.send("Unknown command. \nUse /help for a list of available commands.")
     if isinstance(error, commands.MissingRequiredArgument):
         await ctx.send("Unknown argument. \nUse /help for a list of available commands.")
-    
-@bot.event
-async def no_live(ctx):
-    result = scrapper.no_live()
-    await ctx.send(result)
 
 bot.run(TOKEN)

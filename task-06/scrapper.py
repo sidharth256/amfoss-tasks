@@ -12,6 +12,15 @@ time = datetime.now()
 current_time = time.strftime("%Y-%m-%d")
 csv_time = time.strftime("%Y-%m-%d %H:%M:%S")
 status = soup.find('p', 'ds-text-tight-s ds-font-regular ds-truncate ds-text-typo')
+if len(main)>=2:
+    main1 = main[0].text
+    main2 = main[1].text
+
+def no_live():
+    result = "Live matches available"
+    if 'live' not in main1 or main2:
+        result = "No live matches available"
+    return result
 
 if len(main)>=1:
     over_1 = ""
@@ -77,10 +86,6 @@ def score(team_1, over_1, score_1, team_2, over_2, score_2, live_status, current
     data = (f'{team_1} {over_1}{score_1}\n{team_2} {over_2}{score_2}\n{live_status}\n{current_time}')
     return data
 
-def no_live():
-    if 'live' not in main:
-        result = "No live matches available"
-    return result
 
 
 
