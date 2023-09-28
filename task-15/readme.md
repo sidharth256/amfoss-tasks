@@ -1,2 +1,2 @@
 ## EULER
-The difficulty of this task grew as level advanced. Stil it was not much difficult and I didn't had any major issues.
+This task was little difficult. In Q.1 even though I had wrote code which satisfies the condition in the question I got other errors. But I managed to refine my code and make it work. 
