@@ -1,7 +1,7 @@
 # INTROSPECTION
 ## WHO AM I?
 Hello everyone<br>
-I am Sidharth K and I am delighted to be here as an ECE studentjoining the Amfoss club. While my background is in ECE, I have always had a keen interest in coding and programming.
+I am Sidharth K and I am delighted to be here as an ECE student joining the Amfoss club. While my background is in ECE, I have always had a keen interest in coding and programming.
 
 ## WHY SHOULD YOU CHOSE ME?
 I have an unwavering dedication and enthusiasm for coding and I enjoy sharing my knowledge to others, making me a valuable team member. I am passionate about coding and exploring new things in that field and I believe I can contribute meaningfully to the club.
