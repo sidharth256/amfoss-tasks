@@ -12,8 +12,8 @@
 |Task-04|Competitive Programming |Not attempted|
 |[Task-05](https://github.com/sidharth256/amfoss-tasks/tree/main/task-05)  |HTML              |Completed|
 |[Task-06](https://github.com/sidharth256/amfoss-tasks/tree/main/task-06)  |Cricket Vault     |Completed|
-|Task-07|AK-47             |Not attempted|
-|Task-08|Poke-Search       |Not attempted|
+|Task-07|AK-47             |Attempted|
+|Task-08|Poke-Search       |Attempted|
 |Task-09|GeoQuest          |Not attempted|
 |Task-10|RuskOs            |Not attempted|
 |Task-11|TinkerCAD         |Not attempted|
