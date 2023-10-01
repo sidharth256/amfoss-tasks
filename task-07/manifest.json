@@ -1,0 +1,14 @@
+{
+    "name": "ClimaCast",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "description": "Get realtime weather data",
+    "permissions": ["geolocation"],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "images/bad-weather.png"
+    },
+    "icons": {
+        "128": "images/bad-weather.png"
+    }
+}
